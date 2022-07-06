@@ -1,0 +1,10 @@
+instanceof operator is used to test the whether the object is instance of the specific type
+like class and subclass.itis also known as type comparision opreator since it compare instance with specific
+type.it return the tru false if if the child class object is accessed by the parent class variable or child class
+class vairable;
+class parrent{
+ public static void main(String[] args){
+  parrent p=new parrent();
+  System.out.println(p instanceof parrent)//true;
+ }
+}
